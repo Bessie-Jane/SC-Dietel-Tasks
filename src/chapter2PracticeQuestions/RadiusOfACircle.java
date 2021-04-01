@@ -16,18 +16,9 @@ public class RadiusOfACircle {
         System.out.print("Input radius: ");
         radius = input.nextInt();
 
-        diameter = 2 * radius ;
-        circumference = 2 * Math.PI * radius;
-        area = Math.PI *  radius *  radius;
-
-        System.out.print("Diameter is");
-
-
-
-
-
-
-
+        System.out.printf("Diameter is %d%n", 2 * radius);
+        System.out.printf("Circumference is %2f%n", 2 * Math.PI* radius);
+        System.out.printf("Area is %2f%n", Math.PI *  radius *  radius);
 
     }
 }

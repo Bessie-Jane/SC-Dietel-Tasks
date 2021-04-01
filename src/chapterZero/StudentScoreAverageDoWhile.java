@@ -1,41 +1,33 @@
-package chapterFour;
+package chapterZero;
 
 import java.util.Scanner;
 
-public class StudentScoreAverageFor {
+public class StudentScoreAverageDoWhile {
+
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
-
-        double sumOfValues;
+        double sumOfValues = 0;
         double number;
         double totalNumberOfValues= 0;
 
 
-        for(sumOfValues = 0; sumOfValues < 10; sumOfValues++ ){
-
+        do {
             System.out.print("Enter number: ");
             number = input.nextInt();
 
             if (number >= 1 && number <= 100) {
-
                 totalNumberOfValues = totalNumberOfValues + number;
-
+                sumOfValues++;
             }
-
-            double average = totalNumberOfValues / (sumOfValues) * 1.0;
-
-            System.out.print("the total average is" + average);
-
-
-
         }
+
+        while( sumOfValues < 10);
+        double average = totalNumberOfValues / (sumOfValues) * 1.0;
+        System.out.print("the total average is" + average);
 
 
     }
-
-
-
 }

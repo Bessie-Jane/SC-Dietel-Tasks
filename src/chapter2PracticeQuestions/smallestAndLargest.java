@@ -31,7 +31,7 @@ public class smallestAndLargest {
         product = integerOne * integerTwo * integerThree;
         average = (integerOne + integerTwo + integerThree)/3;
 
-         if (integerOne > integerTwo) {
+         if(integerOne > integerTwo){
              largest = integerOne;
          }
 

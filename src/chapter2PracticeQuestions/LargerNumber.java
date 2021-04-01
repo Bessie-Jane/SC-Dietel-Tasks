@@ -23,7 +23,6 @@ public class LargerNumber {
         if (secondInteger > firstInteger)
             System.out.println(secondInteger + " is larger");
 
-
         if (secondInteger == firstInteger)
             System.out.println("Numbers are equal");
 

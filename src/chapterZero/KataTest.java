@@ -1,4 +1,6 @@
-package chapterFour;
+package chapterZero;
+
+import tdd.Kata;
 
 public class KataTest {
     public static void main(String[] args) {

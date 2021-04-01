@@ -96,15 +96,7 @@ public class SmallestAndLargest2{
 
         System.out.printf("Smallest is %d%n" , smallest);
 
-
-
-
     }
-
-
-
-
-
 }
 
 

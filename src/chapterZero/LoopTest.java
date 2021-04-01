@@ -1,4 +1,4 @@
-package chapterFour;
+package chapterZero;
 
 public class LoopTest {
     public static void main(String[] args) {
@@ -15,10 +15,10 @@ public class LoopTest {
         }
     }**/
 
-    int ten = 10;
-       while(ten <= 2){
+    int ten = 1;
+       while(ten <= 50){
         System.out.printf("%d ", ten);
-        ++ten;
+          ten++;
     }
 
     }

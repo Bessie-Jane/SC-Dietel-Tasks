@@ -1,4 +1,4 @@
-package chapterFour;
+package chapterZero;
 
 import java.util.Scanner;
 
@@ -13,17 +13,14 @@ public class highestNumber {
         int max = 0;
 
         while (number <= 4) {
-
-            System.out.print("Enter a number: ");
+            System.out.println("Enter a number: ");
             userInput = input.nextInt();
 
             if (userInput > max) {
                 max = userInput;
             }
-
             number++;
         }
-
         System.out.print("Largest is " + max );
 
 

@@ -1,14 +1,16 @@
-package chapterFour;
+package chapterZero;
 
-public class christmasCarolForLoop {
+public class christmasCarolWhile {
 
     public static void main(String[] args) {
 
-        for(int counter = 1 ; counter <= 12 ; counter ++){
+        int counter = 1;
+
+        while(counter >= 12){
 
             System.out.print("On the ");
 
-                switch(counter){
+            switch(counter){
 
                     case 1 -> System.out.println("first");
                     case 2 -> System.out.println("second");
@@ -53,11 +55,20 @@ public class christmasCarolForLoop {
 
                     default:
                         System.out.println("And a Partridge in a pear tree!! \n ");
-                        
+
+                }
+
+                counter++;
+
+
+
             }
+
 
         }
 
+
+
+
     }
 
-}
