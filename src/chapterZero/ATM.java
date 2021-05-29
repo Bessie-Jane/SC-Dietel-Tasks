@@ -1,4 +1,4 @@
-package chapter2PracticeQuestions;
+package chapterZero;
 
 public class ATM {
 

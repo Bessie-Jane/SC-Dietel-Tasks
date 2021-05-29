@@ -1,6 +1,7 @@
-package chapter2PracticeQuestions;
+package chapterZero;
 
-import java.sql.SQLOutput;
+import chapterZero.ATM;
+
 import java.util.Scanner;
 
 public class ATMTest {

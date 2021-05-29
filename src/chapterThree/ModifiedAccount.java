@@ -19,21 +19,20 @@ public class ModifiedAccount {
         return name;
     }
 
-    public void setDeposit(int amountToDeposit){
-        if (amountToDeposit > 0){
-            balance = balance + amountToDeposit;
-        }
+    public void deposit(double amountToDeposit){
+        if(amountToDeposit > 0)
+        balance = balance + amountToDeposit;
     }
 
-    public void setWithdraw(int amountToWithdraw){
-        if (amountToWithdraw > 0){
+    public void withdraw(double amountToWithdraw){
+        if(amountToWithdraw > 0 && amountToWithdraw < balance) {
             balance = balance - amountToWithdraw;
         }
+        if(amountToWithdraw > balance) {
+            System.out.println("Withdrawal amount exceeded account balance");
+        }
     }
-
     public double getBalance(){
         return balance;
     }
-
-
 }

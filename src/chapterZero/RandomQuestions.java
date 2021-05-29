@@ -1,4 +1,4 @@
-package chapter3PracticeQuestions;
+package chapterThree;
 import java.security.SecureRandom;
 import java.util.Scanner;
 

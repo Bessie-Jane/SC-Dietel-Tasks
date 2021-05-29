@@ -15,12 +15,10 @@ public class OddOrEven {
         userInput = input.nextInt();
 
         if (userInput % number == 0){
-
             System.out.println("Number is even");
         }
 
         if (userInput % number != 0){
-
             System.out.println("Number is odd");
         }
 
@@ -30,12 +28,10 @@ public class OddOrEven {
 
 
         if (userInput % number != 0) {
-
             System.out.print("Number is odd");
         }
 
         if (userInput % number == 0) {
-
             System.out.println("Number is even");
         }
 

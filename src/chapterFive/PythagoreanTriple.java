@@ -5,10 +5,8 @@ public class PythagoreanTriple {
         int i = 1;
         int j = 1;
         int k = 1;
-        int d = i * i;
-        int e = j * j;
-        int f = k * k;
-        System.out.println("I" + "J" + "K");
+
+        System.out.println("Side A\t\t" + "Side B\t" + "\tHypotenuse");
         for (i = 1; i <= 500; i++) {
             for (j = 1; j <= 500; j++) {
                 for (k = 1; k <= 500; k++) {
@@ -16,8 +14,6 @@ public class PythagoreanTriple {
                 }
             }
         }
-
-
     }
 }
 
